@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nungu Safaris</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: white;
+            color: #333;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #4CAF50;
+            color: white;
+            padding: 20px 0;
+            text-align: center;
+        }
+        nav {
+            background-color: #4CAF50;
+            display: flex;
+            justify-content: center;
+            padding: 10px 0;
+        }
+        nav ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+        }
+        nav ul li {
+            margin: 0 15px;
+        }
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        section {
+            padding: 20px;
+        }
+        h2 {
+            color: #4CAF50;
+        }
+        .gallery img {
+            width: 100%;
+            height: auto;
+            margin-bottom: 20px;
+        }
+        footer {
+            background-color: #4CAF50;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+        .contact-form {
+            display: flex;
+            flex-direction: column;
+            max-width: 600px;
+            margin: 0 auto;
+        }
+        .contact-form label {
+            margin: 10px 0 5px;
+        }
+        .contact-form input, .contact-form textarea {
+            padding: 10px;
+            margin-bottom: 20px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+        }
+        .contact-form button {
+            padding: 10px;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 16px;
+        }
+        .contact-form button:hover {
+            background-color: #45a049;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Nungu Safaris</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="#about">About Us</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#tours">Tours & Packages</a></li>
+            <li><a href="#gallery">Gallery</a></li>
+            <li><a href="#testimonials">Testimonials</a></li>
+            <li><a href="#contact">Contact Us</a></li>
+        </ul>
+    </nav>
+    <main>
+        <section id="about">
+            <h2>About Nungu Safaris</h2>
+            <p>Welcome to Nungu Safaris, your gateway to unforgettable safari adventures. We offer exclusive safari experiences, tailored to your desires, allowing you to explore the beauty and wilderness of Africa.</p>
+        </section>
+        <section id="services">
+            <h2>Our Services</h2>
+            <p>At Nungu Safaris, we provide a variety of services including guided safari tours, custom tour packages, luxury accommodations, and more to ensure you have the best safari experience possible.</p>
+        </section>
+        <section id="tours">
+            <h2>Tours & Packages</h2>
+            <p>Discover our range of safari tours and packages designed to cater to all types of adventurers. Whether you seek thrilling wildlife encounters or serene landscapes, we have something for everyone.</p>
+        </section>
+        <section id="gallery" class="gallery">
+            <h2>Gallery</h2>
+            <img src="safari1.jpg" alt="Safari Image 1">
+            <img src="safari2.jpg" alt="Safari Image 2">
+            <img src="safari3.jpg" alt="Safari Image 3">
+        </section>
+        <section id="testimonials">
+            <h2>Customer Testimonials</h2>
+            <p>"Nungu Safaris provided us with an unforgettable experience! The guides were knowledgeable and the service was exceptional." - Jane Doe</p>
+            <p>"The best safari adventure ever! Highly recommend Nungu Safaris for anyone looking to explore the wild side of Africa." - John Smith</p>
+        </section>
+        <section id="contact">
+            <h2>Contact Us</h2>
+            <form class="contact-form">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="5" required></textarea>
+                <button type="submit">Send</button>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Nungu Safaris. All rights reserved.</p>
+    </footer>
+</body>
+</html>
